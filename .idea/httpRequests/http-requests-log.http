@@ -1,0 +1,300 @@
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121836.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121822.200.json
+
+###
+
+GET http://localhost:2113/departments/all
+
+<> 2023-04-21T121817.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121748.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T121746.200.json
+
+###
+
+GET http://localhost:2113/departments/min-salary?departmentId=2
+
+<> 2023-04-21T121745.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Руслан&lastName=Русланов&departmentId=2&salary=22000
+
+<> 2023-04-21T121744-1.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Максим&lastName=Максимов&departmentId=2&salary=20000
+
+<> 2023-04-21T121744.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Сергей&lastName=Сергеев&departmentId=1&salary=14000
+
+<> 2023-04-21T121743.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Юрий&lastName=Юрьев&departmentId=1&salary=12000
+
+<> 2023-04-21T121742.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Олег&lastName=Олегов&departmentId=1&salary=10000
+
+<> 2023-04-21T121737.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T121732.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121631.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121615.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T121549.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121457.400.json
+
+###
+
+GET http://localhost:2113/departments/employees
+
+<> 2023-04-21T121451.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121425.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T121343.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T121327.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T121322.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121158.400.json
+
+###
+
+GET http://localhost:2113/departments/employees
+
+<> 2023-04-21T121154.200.json
+
+###
+
+GET http://localhost:2113/departments/employees
+
+<> 2023-04-21T121126.200.json
+
+###
+
+GET http://localhost:2113/departments/employees
+
+<> 2023-04-21T121125.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121122.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T121118.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T121113.400.json
+
+###
+
+GET http://localhost:2113/departments/min-salary?departmentId=2
+
+<> 2023-04-21T121111.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Руслан&lastName=Русланов&departmentId=2&salary=22000
+
+<> 2023-04-21T121108.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Максим&lastName=Максимов&departmentId=2&salary=20000
+
+<> 2023-04-21T121107.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Сергей&lastName=Сергеев&departmentId=1&salary=14000
+
+<> 2023-04-21T121106.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Юрий&lastName=Юрьев&departmentId=1&salary=12000
+
+<> 2023-04-21T121105.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Олег&lastName=Олегов&departmentId=1&salary=10000
+
+<> 2023-04-21T121102.200.json
+
+###
+
+GET http://localhost:2113/departments/employees
+
+<> 2023-04-21T121052.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T120950.400.json
+
+###
+
+GET http://localhost:2113/departments/employees
+
+<> 2023-04-21T120935.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T120904.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T120855.400.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=2
+
+<> 2023-04-21T120841.400.json
+
+###
+
+GET http://localhost:2113/departments/employees
+
+<> 2023-04-21T120836.200.json
+
+###
+
+GET http://localhost:2113/departments/employees?departmentId=1
+
+<> 2023-04-21T120755.200.json
+
+###
+
+GET http://localhost:2113/departments/all?departmentId=1
+
+<> 2023-04-21T120744.400.json
+
+###
+
+GET http://localhost:2113/departments/min-salary?departmentId=2
+
+<> 2023-04-21T120736.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Руслан&lastName=Русланов&departmentId=2&salary=22000
+
+<> 2023-04-21T120734.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Максим&lastName=Максимов&departmentId=2&salary=20000
+
+<> 2023-04-21T120732.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Сергей&lastName=Сергеев&departmentId=1&salary=14000
+
+<> 2023-04-21T120731.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Юрий&lastName=Юрьев&departmentId=1&salary=12000
+
+<> 2023-04-21T120730.200.json
+
+###
+
+GET http://localhost:2113/employees/add?firstName=Олег&lastName=Олегов&departmentId=1&salary=10000
+
+<> 2023-04-21T120719.200.json
+
+###
+
+GET http://localhost:2113/departments/all
+
+<> 2023-04-21T120713.400.json
+
+###
+

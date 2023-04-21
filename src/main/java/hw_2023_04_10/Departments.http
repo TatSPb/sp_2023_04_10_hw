@@ -1,0 +1,19 @@
+###
+GET localhost:2113/employees/add?firstName=Олег&lastName=Олегов&departmentId=1&salary=10000
+###
+GET localhost:2113/employees/add?firstName=Юрий&lastName=Юрьев&departmentId=1&salary=12000
+###
+GET localhost:2113/employees/add?firstName=Сергей&lastName=Сергеев&departmentId=1&salary=14000
+###
+GET localhost:2113/employees/add?firstName=Максим&lastName=Максимов&departmentId=2&salary=20000
+###
+GET localhost:2113/employees/add?firstName=Руслан&lastName=Русланов&departmentId=2&salary=22000
+
+###
+GET localhost:2113/departments/min-salary?departmentId=2
+###
+GET localhost:2113/departments/all?departmentId=1
+###
+GET localhost:2113/departments/all?departmentId=2
+###
+GET localhost:2113/departments/all

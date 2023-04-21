@@ -14,13 +14,12 @@ import java.util.List;
 @Service
 public class EmployeeService {
 
-    private static final int SIZE = 3;
+    private static final int SIZE = 5;
     private final List<Employee> employees = new ArrayList<>(SIZE);
 
     @PostConstruct
     public void init() {
-        employees.add(new Employee("Олег", "Олегов", 1, 10_000));
-        employees.add(new Employee("Максим", "Максимов", 2, 20_000));
+
     }
 
     public Employee add(String firstName, String lastName, int department, int salary) {

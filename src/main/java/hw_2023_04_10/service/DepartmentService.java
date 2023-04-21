@@ -17,6 +17,30 @@ public class DepartmentService {
         this.employeeService = employeeService;
     }
 
+    public Employee findEmployeeWithMaxSalaryFromDepartment(int department) {
+        return employeeService.getAll().stream()
+                .filter(employee -> employee.getDepartment() == department)
+                .max(Comparator.comparingInt(Employee::getSalary))
+                .orElse(null);
+    }
+
+    public Employee findEmployeeWithMinSalaryFromDepartment(int department) {
+        return employeeService.getAll().stream()
+                .filter(employee -> employee.getDepartment() == department)
+                .min(Comparator.comparingInt(Employee::getSalary))
+                .orElse(null);
+    }
+
+    public List<Employee> findAllEmployeesFromDepartment(int department) {
+        return employeeService.getAll().stream()
+                .filter(employee -> employee.getDepartment() == department)
+                .toList();
+    }
+
+    public Map<Integer, List<Employee>> findEmployeesByDepartment() {
+        return employeeService.getAll().stream()
+                .collect(Collectors.groupingBy(Employee::getDepartment));
+    }
 
     public void changeDepartment(Employee employee, int newDepartment) {
         employeeService.getAll().stream()
@@ -25,17 +49,12 @@ public class DepartmentService {
                 .ifPresent(value -> value.setDepartment(newDepartment));
     }
 
-    public Map<Integer, List<Employee>> printEmployeesByDepartment() {
-        return employeeService.getAll().stream()
-                .collect(Collectors.groupingBy(Employee::getDepartment));
-    }
-
     public void indexSalariesForDepartment(double index, int department) {
         employeeService.getAll().stream()
                 .filter(employee -> employee.getDepartment() == department)
-                . forEach(employee -> employee.setSalary
+                .forEach(employee -> employee.setSalary
                         ((int) (employee.getSalary() + employee.getSalary() * index / 100)));
-        }
+    }
 
     public double averageSalaryForDepartment(int department) {
         return employeeService.getAll().stream()
@@ -44,18 +63,6 @@ public class DepartmentService {
                 .average()
                 .orElse(0);
     }
-    public Employee findEmployeeWithMinSalaryFromDepartment(int department) {
-        return employeeService.getAll().stream()
-                .filter(employee -> employee.getDepartment() == department)
-                .min(Comparator.comparingInt(Employee::getSalary))
-                .orElse(null);
-    }
-    public Employee findEmployeeWithMaxSalaryFromDepartment(int department) {
-        return employeeService.getAll().stream()
-                .filter(employee -> employee.getDepartment() == department)
-                .max(Comparator.comparingInt(Employee::getSalary))
-                .orElse(null);
-    }
 
     public double totalSalaryForDepartment(int department) {
         return employeeService.getAll().stream()
@@ -63,7 +70,6 @@ public class DepartmentService {
                 .mapToInt(Employee::getSalary)
                 .sum();
     }
-
 }
 
 
